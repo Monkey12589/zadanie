@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    background-image: url("glowna.jpg");
+}
+.header{
+    display: grid;
+    grid-template-columns: 30% 1fr 1fr 1fr;
+    background-color: rgba(0,0,0,0.2);
+}
+.header .logo{
+    background-color: black;
+    padding: 2% 10% 2% 65%;
+}
+.header .koszyk, .kontakt, .login{
+    font-size: 3em;
+    margin-top: 3%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
+.koszyk:hover, .kontakt:hover, .login:hover{
+    text-decoration: underline;
+    color: black;
+}
