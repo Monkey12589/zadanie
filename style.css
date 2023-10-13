@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Patrick+Hand&family=Permanent+Marker&family=Shadows+Into+Light&family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&family=Shadows+Into+Light&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap');
+
 *{
     margin: 0;
 }
@@ -7,7 +12,7 @@ body{
     background-image: url("junak.jpg");
     background-repeat: no-repeat;
     background-size: 1900px 1008px;
-    background-color: darkgray;
+    background-color: gray;
     height: 2050px;
     min-width: 1800px;
     max-width: 1900px;
@@ -35,7 +40,7 @@ body{
 }
 .koszyk:hover, .kontakt:hover, .login:hover{
     text-decoration: underline;
-    color: black;
+    color: rgb(177, 177, 177);
 }
 .header span{
     font-size: 30px;
@@ -63,7 +68,7 @@ body{
     font-weight: 200;
 }
 .main .button{
-    margin-bottom: 600px;
+    margin-bottom: 570px;
     margin-left: 44%;
 
 }
@@ -79,4 +84,28 @@ body{
 .main .button button:hover{
     box-shadow: 0 0 25px white;
     
+}
+.opis{
+    margin-left: 100px;
+    
+}
+.opis h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+    text-shadow: 0 0 5px rgb(70, 70, 70);
+}
+.opis p{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 25px;
+}
+.opis li{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgb(70, 70, 70);
+}
+.opis h2{
+    font-family: 'Aleo', serif;
+    text-shadow: 0 0 5px rgb(70, 70, 70);
+    font-weight: 900;
 }
