@@ -29,7 +29,7 @@ body{
     background-color: black;
     padding: 2% 10% 2% 65%;
 }
-.header .koszyk, .kontakt, .login{
+.header .galeria, .kontakt, .katalog{
     font-size: 3em;
     margin-top: 3%;
     text-decoration: none;
@@ -38,7 +38,7 @@ body{
     text-shadow: 0 0 5px rgba(0,0,0,0.6);
     font-family: 'Caveat', cursive;
 }
-.koszyk:hover, .kontakt:hover, .login:hover{
+.galeria:hover, .kontakt:hover, .katalog:hover{
     text-decoration: underline;
     color: rgb(177, 177, 177);
 }
