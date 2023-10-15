@@ -8,10 +8,13 @@
 *{
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
-    background-image: url("junak.jpg");
+    background-image: url("junak.png");
     background-repeat: no-repeat;
-    background-size: 1900px 1008px;
+    background-size: 1900px 1430px;
     background-color: gray;
     min-width: 1800px;
     max-width: 1900px;
