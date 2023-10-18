@@ -5,6 +5,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap');
 
+::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-button{
+    background-color: rgb(15, 15, 15);
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(100, 100, 100);
+}
+::-webkit-scrollbar-corner{
+    background-color: black;
+}
+::-webkit-scrollbar-track-piece{
+    background-color: rgb(20, 20, 20);
+}
+
 *{
     margin: 0;
 }
@@ -14,14 +34,16 @@ html{
 body{
     background-image: url("junak.png");
     background-repeat: no-repeat;
-    background-size: 1900px 1430px;
+    background-size: 100vw 150vh;
     background-color: gray;
     min-width: 1800px;
     max-width: 1900px;
+    height: 200vh;
+    width: 100vw;
 }
 .header{
     position: fixed;
-    width: 100%;
+    width: 1900px;
     top: 0;
     display: grid;
     grid-template-columns: 30% 1fr 1fr 1fr;
@@ -88,7 +110,8 @@ body{
     
 }
 .opis{
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-top: 100vh;
     
 }
 .opis h1{
