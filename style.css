@@ -34,7 +34,7 @@ html{
 body{
     background-image: url("junak.png");
     background-repeat: no-repeat;
-    background-size: 100vw 150vh;
+    background-size: cover;
     background-color: gray;
     min-width: 1800px;
     max-width: 1900px;
@@ -111,114 +111,114 @@ body{
     box-shadow: 0 0 25px white;
     
 }
-.opis{
+.main .opis{
     margin-left: 50px;
     margin-top: 100vh;
     
 }
-.opis h1{
+.main .opis h1{
     font-family: 'Archivo Black', sans-serif;
     font-size: 40px;
     text-shadow: 0 0 5px rgb(70, 70, 70);
 }
-.opis p{
+.main .opis p{
     font-family: 'Akaya Telivigala', cursive;
     font-size: 25px;
 }
-.opis li{
+.main .opis li{
     font-family: 'Akaya Telivigala', cursive;
     font-size: 25px;
     font-weight: bold;
     text-shadow: 0 0 5px rgb(70, 70, 70);
 }
-.opis h2{
+.main .opis h2{
     font-family: 'Aleo', serif;
     text-shadow: 0 0 5px rgb(70, 70, 70);
     font-weight: 900;
 }
 
 /*GALLERY*/
-.galeriaa{
+.gallery .galeriaa{
     width: 99vw;
     margin-left: 7px;
     margin-top: 100px;
     border: 2px solid rgb(255, 255, 255);
 }
-.galeriaa img{
+.gallery .galeriaa img{
     height: 190px;
     width: 300px;
     border: 2px solid black;
     border-radius: 20px;
 }
-.galeriaa table{
+.gallery .galeriaa table{
     background-color: rgba(0,0,0,0.8);
     width: 100%;
     height: 88vh;
     color: wheat;
+}
 
 /*GALLERY ZOOM IMG*/
-}
-.galeriaa table img {
+.gallery .galeriaa table img {
     transition: transform 0.25s ease;
     cursor: zoom-in;
 }
-.galeriaa table img:active {
+.gallery .galeriaa table img:active {
     -webkit-transform: scale(3);
     transform: scale(3);
     cursor: zoom-out;
 }
-.lewy:active{
+.gallery .lewy:active{
     position: absolute;
     margin-left: 150px;
 }
-.prawy:active{
+.gallery .prawy:active{
     position: absolute;
     margin-left: -540px;
 }
-.gora:active{
+.gallery .gora:active{
     position: absolute;
     margin-top: 100px;
 }
-.dol:active{
+.gallery .dol:active{
     position: absolute;
     margin-top: -300px;
 }
-.goralewy:active{
+.gallery .goralewy:active{
     position: absolute;
     margin-left: 150px;
     margin-top: 100px;
 }
-.goraprawy:active{
+.gallery .goraprawy:active{
     position: absolute;
     margin-left: -540px;
     margin-top: 100px;
 }
-.gorap:active{
+.gallery .gorap:active{
     position: absolute;
     margin-left: -200px;
     margin-top: 100px;
 }
-.dollewy:active{
+.gallery .dollewy:active{
     position: absolute;
     margin-left: 150px;
     margin-top: -300px;
 }
-.dolprawy:active{
+.gallery .dolprawy:active{
     position: absolute;
     margin-left: -540px;
     margin-top: -300px;
 }
-.dolp:active{
+.gallery .dolp:active{
     position: absolute;
     margin-left: -200px;
     margin-top: -300px;
 }
-.lewyp:active{
+.gallery .lewyp:active{
     position: absolute;
     margin-left: 150px;
     margin-top: -70px;
 }
-.prawyp:active{
+.gallery .prawyp:active{
     position: absolute;
     margin-left: -540px;
     margin-top: -70px;
