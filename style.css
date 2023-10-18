@@ -34,7 +34,7 @@ html{
 body{
     background-image: url("junak.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover 150vh;
     background-color: gray;
     min-width: 1800px;
     max-width: 1900px;
