@@ -43,18 +43,18 @@ body{
 }
 .header{
     position: fixed;
-    width: 1900px;
+    width: 100%;
     top: 0;
     display: grid;
     grid-template-columns: 30% 1fr 1fr 1fr;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.3);
 }
 .header .logo{
     background-color: black;
     padding: 2% 10% 2% 65%;
 }
 .header .galeria, .kontakt, .katalog{
-    font-size: 3em;
+    font-size: 300%;
     margin-top: 3%;
     text-decoration: none;
     text-align: center;
