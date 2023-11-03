@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+
 
 ::-webkit-scrollbar{
     width: 7px;
@@ -254,24 +257,99 @@ main .button button:hover{
 .catalog .menu p{
     color: white;
     text-align: center;
+    font-size: 30px;
 }
-.catalog .menu ul{
+.catalog .menu form{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     color: white; 
-    
+    padding: 0 50px;
 }
-.catalog .menu ul li{
-    margin-top: 10px;
-}
-
-.catalog .menu ul button{
+.catalog .menu form input{
     background-color: rgba(0,0,0,0);
     border: solid 1px white;
     color: white; 
     width: 90%;
     height: 30px;    
+    margin-top: 10px;
+    border-radius: 10px;
 }
-.catalog .menu ul button:hover{
+.catalog .menu form input:hover{
     color: lightgray;
+}
+.catalog #wszystkie{
+    display: none;
+    margin-top: 2%;
+    width: 98%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  
+}
+.catalog #wszystkie div{
+    width: 24%;
+    height: 320px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.catalog #wszystkie div button:hover .hover{
+    display: block;
+}
+.catalog #wszystkie div button{
+    float: right;
+    margin-right: 10px;
+    margin-top: -26px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+.catalog #wszystkie div button img{
+    height: 50px;
+    width: 50px;
+}
+.catalog #wszystkie div button .hover{
+    position: absolute;
+    display: none;
+}
+.catalog #wszystkie div img{
+    height: 250px;
+}
+.catalog #wszystkie div p{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    margin-left: 30px;
+}
+#j121{
+    display: none;
+    margin-top: 20px;
+}
+.catalog #wszystkie div .h2{
+    line-height: 5px;
+    margin-bottom: 20px;
+    width: 400px;
+    font-size: 30px;
+    margin-left: 30%;
+    font-weight: 800;
+    text-shadow: 0 0 10px red;
+}
+.catalog #wszystkie div .center{
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0 0 10px gray;
+}
+.catalog #wszystkie div .hr{
+    width: 400px;
+    margin-left: 20px;
+}
+.catalog #wszystkie div .left{
+    width: 400px;
+    line-height: 30px;
+    margin-left: 30%;
 }

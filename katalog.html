@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
-<body>
+<body style="height: 100%;">
+    <script src="script.js"></script>
     <div class="catalog">
         <div class="header">
             <a href="glowna.html"><img class="logo" src="logo.png" alt="logo" height="70em"></a>
@@ -18,14 +19,112 @@
         
         <div class="menu">
             <p>Kategorie:</p>
-            <ul>
-                <li><button>Wszystkie</button></li>
-                <li><button>Motocykle</button></li>
-                <li><button>Motorowery</button></li>
-                <li><button>Skutery</button></li>
-                <li><button>Skutery 125</button></li>
-            </ul>
+            <form>
+                <input type="button" id="w1" onclick="showhide('w')" value="Wszystkie">
+                <input type="button" id="m1" onclick="showhide('m')" value="Motocykle">
+                <input type="button" id="n1" onclick="showhide('n')" value="Motorowery">
+                <input type="button" id="s1" onclick="showhide('s')" value="Skutery">
+                <input type="button" id="d1" onclick="showhide('d')" value="Skutery 125">
+            </form>
         </div>
+        
+        <div id="wszystkie">
+            <div id="divj121"><img src="motocykle/junak-121.jpg"><p>Junak 121</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button>
+                <div id="j121">
+                    <h2 class="h2">Cena: 8999 zł</h2><br>
+                    <h2 class="center">Specyfikacje:</h2><hr class="hr">
+                    <h2 class="left">Pojemność: 124 cm³</h2><hr class="hr">
+                    <h2 class="left">Rodziaj silnika: czterosuwowy</h2><hr class="hr">
+                    <h2 class="left">Prędkość maksymalna: 90km/h</h2><hr class="hr">
+                    <h2 class="left">Moc: 7,7KW/10,5KM</h2><hr class="hr">
+                    <h2 class="left">Rozruch: elektryczny i nożny</h2><hr class="hr">
+                    <h2 class="left">Masa własna: 124kg</h2><hr class="hr">
+                    <h2 class="left">Dopuszczalne obciązenie: 150kg</h2><hr class="hr">
+                    <h2 class="left">Zbiornik paliwa: 14,5l</h2>
+                </div></div>
+            
+            <div id="divj121"><img src="motocykle/junak-125racer.jpg"><p>Junak 125 Racer</p><button id="imgj121" onclick="opis('j125r')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motocykle/junak-125s.jpg"><p>Junak 125 S</p><button id="imgj121" onclick="opis('j125s')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motocykle/junak-adv125.jpg"><p>Junak ADV 125</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+
+            <div id="divj121"><img src="motocykle/junak-m11-125.jpg"><p>Junak M11 125</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motocykle/junak-m11-125cafe.jpg"><p>Junak M11 125 cafe</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motocykle/junak-m12-125.jpg"><p>Junak M12 125</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motocykle/junak-m12-125cafe.jpg"><p>Junak M12 125 cafe</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+
+            <div id="divj121"><img src="motocykle/junak-m12vintage125.jpg"><p>Junak M12 125 Vintage</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motocykle/junak-m13-125.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img style="border-radius: 10px;" src="motocykle/junak-m15-125.jpg" width="442px"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motocykle/junak-m16-125.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+
+            <div id="divj121"><img src="motocykle/junak-rsl125.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motocykle/junak-rx401.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motocykle/junak-rxone125.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motocykle/junak-sc125.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+
+            <div id="divj121"><img src="motocykle/junak-sc300.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motocykle/junak-sr400.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motocykle/junak-xray125.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motorowery/junak-901.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+
+            <div id="divj121"><img src="motorowery/junak-902.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motorowery/junak-905f.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motorowery/junak-906.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motorowery/junak-907.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+
+            <div id="divj121"><img src="motorowery/junak-adv50.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motorowery/junak-futious.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motorowery/junak-raw50.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="motorowery/junak-xray50.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+
+            <div id="divj121"><img src="skutery/junak-103.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="skutery/junak-104.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="skutery/junak-106.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="skutery/junak-108.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+
+            <div id="divj121"><img src="skutery/junak-607.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="skutery/junak-805.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="skutery/junak-806.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="skutery/junak-classico50.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+
+            <div id="divj121"><img src="skutery/junak-vintage50.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="skutery125/junak-711.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="skutery125/junak-806-125.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="skutery125/junak-classico125.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+
+            <div style="background-color: rgba(0,0,0,0);"></div>
+            <div id="divj121"><img src="skutery125/junak-vintage125.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+            <div id="divj121"><img src="skutery125/junak-xdv125.jpg"><p>Junak</p><button id="imgj121" onclick="opis('j121')"><img class="hover" src="down-arrow-6426hover.svg"><img src="down-arrow-6426.svg"></button></div>
+        </div>
+
+        <div id="motocykle">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="motorowery">
+
+        </div>
+
+        <div id="skutery">
+
+        </div>
+
+        <div id="skutery125">
+
+        </div>
+
 
     </div>
 </body>
