@@ -45,6 +45,7 @@ body{
     width: 100vw;
 }
 .header{
+    min-width: 1000px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -325,7 +326,7 @@ main .button button:hover{
     text-align: left;
     margin-left: 30px;
 }
-#j121{
+.display{
     display: none;
     margin-top: 20px;
 }
@@ -349,6 +350,300 @@ main .button button:hover{
     margin-left: 20px;
 }
 .catalog #wszystkie div .left{
+    width: 400px;
+    line-height: 30px;
+    margin-left: 30%;
+}
+
+
+
+
+.catalog #motocykle{
+    display: none;
+    margin-top: 2%;
+    width: 98%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  
+}
+.catalog #motocykle div{
+    width: 24%;
+    height: 320px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.catalog #motocykle div button:hover .hover{
+    display: block;
+}
+.catalog #motocykle div button{
+    float: right;
+    margin-right: 10px;
+    margin-top: -26px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+.catalog #motocykle div button img{
+    height: 50px;
+    width: 50px;
+}
+.catalog #motocykle div button .hover{
+    position: absolute;
+    display: none;
+}
+.catalog #motocykle div img{
+    height: 250px;
+}
+.catalog #motocykle div p{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    margin-left: 30px;
+}
+.catalog #motocykle div .h2{
+    line-height: 5px;
+    margin-bottom: 20px;
+    width: 400px;
+    font-size: 30px;
+    margin-left: 30%;
+    font-weight: 800;
+    text-shadow: 0 0 10px red;
+}
+.catalog #motocykle div .center{
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0 0 10px gray;
+}
+.catalog #motocykle div .hr{
+    width: 400px;
+    margin-left: 20px;
+}
+.catalog #motocykle div .left{
+    width: 400px;
+    line-height: 30px;
+    margin-left: 30%;
+}
+.catalog #motorowery{
+    display: none;
+    margin-top: 2%;
+    width: 98%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  
+}
+.catalog #motorowery div{
+    width: 24%;
+    height: 320px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.catalog #motorowery div button:hover .hover{
+    display: block;
+}
+.catalog #motorowery div button{
+    float: right;
+    margin-right: 10px;
+    margin-top: -26px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+.catalog #motorowery div button img{
+    height: 50px;
+    width: 50px;
+}
+.catalog #motorowery div button .hover{
+    position: absolute;
+    display: none;
+}
+.catalog #motorowery div img{
+    height: 250px;
+}
+.catalog #motorowery div p{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    margin-left: 30px;
+}
+.catalog #motorowery div .h2{
+    line-height: 5px;
+    margin-bottom: 20px;
+    width: 400px;
+    font-size: 30px;
+    margin-left: 30%;
+    font-weight: 800;
+    text-shadow: 0 0 10px red;
+}
+.catalog #motorowery div .center{
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0 0 10px gray;
+}
+.catalog #motorowery div .hr{
+    width: 400px;
+    margin-left: 20px;
+}
+.catalog #motorowery div .left{
+    width: 400px;
+    line-height: 30px;
+    margin-left: 30%;
+}
+.catalog #skutery{
+    display: none;
+    margin-top: 2%;
+    width: 98%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  
+}
+.catalog #skutery div{
+    width: 24%;
+    height: 320px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.catalog #skutery div button:hover .hover{
+    display: block;
+}
+.catalog #skutery div button{
+    float: right;
+    margin-right: 10px;
+    margin-top: -26px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+.catalog #skutery div button img{
+    height: 50px;
+    width: 50px;
+}
+.catalog #skutery div button .hover{
+    position: absolute;
+    display: none;
+}
+.catalog #skutery div img{
+    height: 250px;
+}
+.catalog #skutery div p{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    margin-left: 30px;
+}
+.catalog #skutery div .h2{
+    line-height: 5px;
+    margin-bottom: 20px;
+    width: 400px;
+    font-size: 30px;
+    margin-left: 30%;
+    font-weight: 800;
+    text-shadow: 0 0 10px red;
+}
+.catalog #skutery div .center{
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0 0 10px gray;
+}
+.catalog #skutery div .hr{
+    width: 400px;
+    margin-left: 20px;
+}
+.catalog #skutery div .left{
+    width: 400px;
+    line-height: 30px;
+    margin-left: 30%;
+}
+
+
+.catalog #skutery125{
+    display: none;
+    margin-top: 2%;
+    width: 98%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  
+}
+.catalog #skutery125 div{
+    width: 24%;
+    height: 320px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.catalog #skutery125 div button:hover .hover{
+    display: block;
+}
+.catalog #skutery125 div button{
+    float: right;
+    margin-right: 10px;
+    margin-top: -26px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+.catalog #skutery125 div button img{
+    height: 50px;
+    width: 50px;
+}
+.catalog #skutery125 div button .hover{
+    position: absolute;
+    display: none;
+}
+.catalog #skutery125 div img{
+    height: 250px;
+}
+.catalog #skutery125 div p{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    margin-left: 30px;
+}
+.catalog #skutery125 div .h2{
+    line-height: 5px;
+    margin-bottom: 20px;
+    width: 400px;
+    font-size: 30px;
+    margin-left: 30%;
+    font-weight: 800;
+    text-shadow: 0 0 10px red;
+}
+.catalog #skutery125 div .center{
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0 0 10px gray;
+}
+.catalog #skutery125 div .hr{
+    width: 400px;
+    margin-left: 20px;
+}
+.catalog #skutery125 div .left{
     width: 400px;
     line-height: 30px;
     margin-left: 30%;
