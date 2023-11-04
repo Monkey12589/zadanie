@@ -659,8 +659,8 @@ function opis(l){
       } 
       else{
         x.style.display = "none";
-        document.getElementById("imgj1").style.rotate="0deg"
-        document.getElementById("divj1").style.height="320px"
+        document.getElementById("imgj8061").style.rotate="0deg"
+        document.getElementById("divj8061").style.height="320px"
       }
       break
     }
@@ -1267,8 +1267,8 @@ function opis(l){
         } 
         else{
           x.style.display = "none";
-          document.getElementById("dimgj1").style.rotate="0deg"
-          document.getElementById("ddivj1").style.height="320px"
+          document.getElementById("dimgj8061").style.rotate="0deg"
+          document.getElementById("ddivj8061").style.height="320px"
         }
         break
       }
