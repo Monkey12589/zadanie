@@ -1316,3 +1316,19 @@ function opis(l){
       }
     }
   }
+
+function copy(o){
+  switch(o){
+    case'm':{
+      document.getElementById("mail").select()
+      document.execCommand("copy")
+      break
+    }
+    case'p':{
+      document.getElementById("phone").select()
+      document.execCommand("copy")
+      break
+    }
+  }
+  
+}
