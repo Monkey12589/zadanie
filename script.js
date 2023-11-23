@@ -1,6 +1,7 @@
 //scroll [main]
 function scrollWinD(){
     window.scrollBy(0, 950);
+    document.getElementById("body").style.overflow="visible"
   }
 
 //play pause video [main]

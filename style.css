@@ -109,10 +109,12 @@ body{
     font-size: 25px;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 600;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
 }
 .main .button button:hover{
-    box-shadow: 0 0 25px white;
-    
+    text-decoration: underline;
+    color: lightgray;
 }
 .main .opis{
     margin-top: 200px;
@@ -141,8 +143,13 @@ body{
 .main .opis video{
     margin-left: 50%;
     transform: translateX(-50%);
+    border-radius: 30px;
 }
-main .button button{
+.main .button2{
+    margin-left: 44%;
+
+}
+.main .button2 button{
     padding: 20px;
     border-radius: 20px;
     border: solid 1px black;
@@ -150,11 +157,13 @@ main .button button{
     font-size: 25px;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 600;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
 }
-main .button button:hover{
-    box-shadow: 0 0 25px white;
+.main .button2 button:hover{
+    text-decoration: underline;
+    color: lightgray;
 }
-
 /*GALLERY*/
 .gallery .galeriaa{
     width: 99vw;
@@ -168,11 +177,15 @@ main .button button:hover{
     border: 2px solid black;
     border-radius: 20px;
 }
+.gallery .galeriaa table th:hover{
+    color: lightgray;
+    text-decoration: underline;
+}
 .gallery .galeriaa table{
     background-color: rgba(0,0,0,0.8);
     width: 100%;
     height: 88vh;
-    color: wheat;
+    color: white;
 }
 
 /*GALLERY ZOOM IMG*/
@@ -241,7 +254,7 @@ main .button button:hover{
     margin-left: -540px;
     margin-top: -70px;
 }
-.gallery th:active{
+.gallery .galeriaa table th:active{
     color: rgba(0,0,0,0);
 }
 /*CATALOG*/
@@ -249,7 +262,8 @@ main .button button:hover{
     margin-top: 100px;
     width: 90%;
     height: 20px;
-    background-color: gray;
+    background-color: rgba(0,0,0,0.6);
+    box-shadow: 0 0 25px black;
     margin-left: 50%;
     transform: translateX(-50%);
     height: 80px;
@@ -277,6 +291,7 @@ main .button button:hover{
 }
 .catalog .menu form input:hover{
     color: lightgray;
+    text-decoration: underline;
 }
 .catalog #wszystkie{
     display: none;
@@ -284,14 +299,15 @@ main .button button:hover{
     width: 98%;
     margin-left: 20px;
     margin-bottom: 20px;
-  
 }
 .catalog #wszystkie div{
-    width: 24%;
+    width: 23.9%;
     height: 320px;
     background-color: white;
     text-align: center;
     border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 25px black;
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -367,11 +383,13 @@ main .button button:hover{
   
 }
 .catalog #motocykle div{
-    width: 24%;
+    width: 23.9%;
     height: 320px;
     background-color: white;
     text-align: center;
     border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 25px black;
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -439,11 +457,13 @@ main .button button:hover{
   
 }
 .catalog #motorowery div{
-    width: 24%;
+    width: 23.9%;
     height: 320px;
     background-color: white;
     text-align: center;
     border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 25px black;
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -511,11 +531,13 @@ main .button button:hover{
   
 }
 .catalog #skutery div{
-    width: 24%;
+    width: 23.9%;
     height: 320px;
     background-color: white;
     text-align: center;
     border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 25px black;
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -585,11 +607,13 @@ main .button button:hover{
   
 }
 .catalog #skutery125 div{
-    width: 24%;
+    width: 23.9%;
     height: 320px;
     background-color: white;
     text-align: center;
     border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 25px black;
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -653,14 +677,16 @@ main .button button:hover{
 .contact .container{
     width: 50%;
     height: 600px;
-    background-color: lightgray;
+    background-color: rgba(0,0,0,0.5);
     margin-left: 50%;
     transform:translateX(-50%);
     margin-top: 200px;
     border-radius: 50px;
     text-align: center;
-    box-shadow: 0 0 25px white;
+    box-shadow: 0 0 25px black;
     border: 3px solid black;
+    color: lightgray;
+    text-shadow: 0 0 5px black;
 }
 .contact .container h1{
     font-size: 100px;
@@ -668,7 +694,6 @@ main .button button:hover{
     transform: translateY(50px);
     font-family: 'Pacifico', cursive;
     font-weight: 100;
-    text-shadow: 0 0 10px white;
 }
 .contact .container h2{
     font-size: 30px;
